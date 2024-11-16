@@ -10,5 +10,5 @@ Generating FFI Bindings can usually be broken down into logically distinct stage
 
 This project is structured to address these issues individually by
 * providing common language parsers to extract symbol and type information from low-level languages
-* providing simple macros to define the exported symbols to high-level languages
+* providing simple macros to define the exported API to high-level languages
 * uses the advanced LM type system to generate good glue code that allocates resources and frees resources correctly
